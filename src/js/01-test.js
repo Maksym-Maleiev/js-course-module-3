@@ -13,4 +13,5 @@ console.log(book);
 const apartment = {
   imgUrl: "https://via.placeholder.com/640x480",
   descr: "Spacious apartment in the city center",
+  rating: 4,
 };
