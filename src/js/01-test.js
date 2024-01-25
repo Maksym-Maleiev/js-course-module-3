@@ -10,4 +10,4 @@ const book = {
 console.log(book);
 */
 
-const apartment = ;
+const apartment = { imgUrl: "https://via.placeholder.com/640x480" };
