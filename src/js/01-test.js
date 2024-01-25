@@ -1,3 +1,4 @@
+/*
 const book = {
   title: "The Last Kingdom",
   author: "Bernard Cornwell",
@@ -5,3 +6,6 @@ const book = {
   public: true,
   rating: 8.38,
 };
+
+console.log(book);
+*/
