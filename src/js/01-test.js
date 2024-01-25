@@ -9,3 +9,5 @@ const book = {
 
 console.log(book);
 */
+
+const apartment = ;
