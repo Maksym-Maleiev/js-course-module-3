@@ -4,3 +4,5 @@ const user = {
   location: { country: 'Jamaica', city: 'Ocho Rios' },
   stats: { followers: 5603, views: 4827, likes: 1308 },
 };
+
+console.log(user);
