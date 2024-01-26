@@ -10,6 +10,7 @@ console.log(user);
 */
 
 const apartment = {
+  name: 'Henry',
   imgUrl: 'https://via.placeholder.com/640x480',
   descr: 'Spacious apartment in the city center',
   rating: 4,
