@@ -46,5 +46,12 @@ const ownerPhone = apartment.owner.phone;
 const ownerEmail = apartment.owner.email;
 const numberOfTags = apartment.tags.length;
 const firstTag = apartment.tags[0];
-const lastTag = apartment.tags[tags.length - 1];
+const lastTag = apartment.tags[2];
 // Change code above this line
+
+console.log(ownerName);
+console.log(ownerPhone);
+console.log(ownerEmail);
+console.log(numberOfTags);
+console.log(firstTag);
+console.log(lastTag);
