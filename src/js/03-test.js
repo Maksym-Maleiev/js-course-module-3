@@ -33,3 +33,8 @@ const aptDescr = apartment.descr;
 const aptPrice = apartment.price;
 const aptTags = apartment.tags;
 // Change code above this line
+
+console.log(aptRating);
+console.log(aptDescr);
+console.log(aptPrice);
+console.log(aptTags);
