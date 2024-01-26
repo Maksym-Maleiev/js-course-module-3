@@ -41,10 +41,10 @@ const apartment = {
 };
 
 // Change code below this line
-const ownerName = apartment;
-const ownerPhone = apartment;
-const ownerEmail = apartment;
-const numberOfTags = apartment;
-const firstTag = apartment;
-const lastTag = apartment;
+const ownerName = apartment.owner.name;
+const ownerPhone = apartment.owner.phone;
+const ownerEmail = apartment.owner.email;
+const numberOfTags = apartment.tags.length;
+const firstTag = apartment.tags[0];
+const lastTag = apartment.tags[tags.length - 1];
 // Change code above this line
