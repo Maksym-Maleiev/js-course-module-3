@@ -10,8 +10,11 @@ console.log(user);
 */
 
 const apartment = {
-  owner: {},
-
+  owner: {
+    name: 'Henry',
+    phone: '982-126-1588',
+    email: 'henry.carter@aptmail.com',
+  },
   imgUrl: 'https://via.placeholder.com/640x480',
   descr: 'Spacious apartment in the city center',
   rating: 4,
