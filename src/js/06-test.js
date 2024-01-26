@@ -34,4 +34,11 @@ const apartment = {
   },
 };
 
+apartment.price = 5000;
+apartment.rating = 4.7;
+apartment.owner.name = 'Henry Sibola';
+apartment.tags.push('trusted');
+
 // Change code below this line
+
+console.log(apartment);
