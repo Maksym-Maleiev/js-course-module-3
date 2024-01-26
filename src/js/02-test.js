@@ -1,3 +1,4 @@
+/*
 const user = {
   name: 'Jacques Gluke',
   tag: 'jgluke',
@@ -6,3 +7,4 @@ const user = {
 };
 
 console.log(user);
+*/
