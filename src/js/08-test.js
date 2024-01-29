@@ -35,3 +35,8 @@ const product = {
   tags,
   // Change code above this line
 };
+
+console.log(product.name);
+console.log(product.price);
+console.log(product.image);
+console.log(product.tags);
