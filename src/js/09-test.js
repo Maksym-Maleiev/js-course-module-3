@@ -1,3 +1,4 @@
+// ! Bad practice
 /*
 const propName = 'name';
 const user = { age: 25 };
@@ -6,6 +7,8 @@ console.log(user.name);
 // "Harry Potter"
 */
 
+// * Good practice
+/*
 const propName = 'name';
 const user = {
   age: 25,
@@ -14,3 +17,12 @@ const user = {
 };
 console.log(user.name);
 // "Harry Potter"
+*/
+
+const emailInputName = 'email';
+const passwordInputName = 'password';
+
+const credentials = {
+  // Change code below this line
+  // Change code above this line
+};
