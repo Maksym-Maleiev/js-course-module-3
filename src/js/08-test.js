@@ -8,11 +8,26 @@ console.log(user.age);
 // 25
 */
 
+/*
 const name = 'Harry Potter';
 const age = 25;
-const user = { name, age };
+const user = {
+  name,
+  age,
+};
 
 console.log(user.name);
 // "Harry Potter"
 console.log(user.age);
 // 25
+*/
+
+const name = 'Repair Droid';
+const price = 2500;
+const image = 'https://via.placeholder.com/640x480';
+const tags = ['on sale', 'trending', 'best buy'];
+
+const product = {
+  // Change code below this line
+  // Change code above this line
+};
