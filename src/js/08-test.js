@@ -29,5 +29,9 @@ const tags = ['on sale', 'trending', 'best buy'];
 
 const product = {
   // Change code below this line
+  name,
+  price,
+  image,
+  tags,
   // Change code above this line
 };
