@@ -21,3 +21,11 @@ const apartment = {
 const keys = [];
 const values = [];
 // Change code below this line
+
+for (const key in apartment) {
+  keys.push(key);
+  values.push(apartment[key]);
+}
+
+console.log(keys);
+console.log(values);
