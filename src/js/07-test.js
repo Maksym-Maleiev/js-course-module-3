@@ -45,12 +45,3 @@ console.log(apartment.rooms);
 console.log(apartment.location);
 console.log(apartment.location.country);
 console.log(apartment.location.city);
-
-function printOddOrEven(n) {
-  if (n % 2 === 0) {
-    console.log('even numbers');
-  } else {
-    console.log('odd numbers');
-  }
-}
-console.log(printOddOrEven(15));
