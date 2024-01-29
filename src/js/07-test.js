@@ -29,12 +29,19 @@ const apartment = {
     phone: '982-126-1588',
     email: 'henry.carter@aptmail.com',
   },
-  area: 60,
-  rooms: 3,
-  location: {
-    country: 'Jamaica',
-    city: 'Kingston',
-  },
+};
+
+apartment.area = 60;
+apartment.rooms = 3;
+apartment.location = {
+  country: 'Jamaica',
+  city: 'Kingston',
 };
 
 // Change code below this line
+
+console.log(apartment.area);
+console.log(apartment.rooms);
+console.log(apartment.location);
+console.log(apartment.location.country);
+console.log(apartment.location.city);
