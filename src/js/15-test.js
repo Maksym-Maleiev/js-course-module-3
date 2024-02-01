@@ -22,3 +22,6 @@ const apartment = {
 // Change code below this line
 const keys = apartment;
 const values = apartment;
+
+console.log(keys);
+console.log(values);
