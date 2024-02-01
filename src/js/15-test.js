@@ -20,8 +20,8 @@ const apartment = {
   price: 2153,
 };
 // Change code below this line
-const keys = apartment;
-const values = apartment;
+const keys = Object.keys(apartment);
+const values = Object.values(apartment);
 
 console.log(keys);
 console.log(values);
