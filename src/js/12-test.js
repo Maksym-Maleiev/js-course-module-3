@@ -5,3 +5,7 @@ function countProps(object) {
   // Change code above this line
   return propCount;
 }
+
+console.log(countProps({ name: 'Mango', age: 2 }));
+
+console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 }));
