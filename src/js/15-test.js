@@ -1,3 +1,4 @@
+/*
 const book = {
   title: 'The Last Kingdom',
   author: 'Bernard Cornwell',
@@ -11,3 +12,13 @@ console.log(keys);
 const values = Object.values(book);
 console.log(values);
 // ["The Last Kingdom", "Bernard Cornwell", 8.38]
+*/
+
+const apartment = {
+  descr: 'Spacious apartment in the city center',
+  rating: 4,
+  price: 2153,
+};
+// Change code below this line
+const keys = apartment;
+const values = apartment;
