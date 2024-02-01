@@ -3,10 +3,8 @@ function countProps(object) {
   let propCount = 0;
 
   const keys = Object.keys(object);
-  console.log(keys);
 
   for (const key of keys) {
-    console.log(key);
     if (object.hasOwnProperty(key)) {
       propCount += 1;
     }
