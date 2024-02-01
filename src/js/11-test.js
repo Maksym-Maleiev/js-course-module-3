@@ -53,12 +53,9 @@ apartment.price = 2153;
 for (const key in apartment) {
   // Change code below this line
 
-  keys.push(key);
-  values.push(apartment[key]);
-
   if (apartment.hasOwnProperty(key)) {
-    console.log(key);
-    console.log(apartment[key]);
+    keys.push(key);
+    values.push(apartment[key]);
   }
 
   // Change code above this line
