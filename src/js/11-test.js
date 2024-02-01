@@ -23,6 +23,7 @@ console.log(dog.hasOwnProperty('legs'));
 // false
 */
 
+/*
 const book = {
   title: 'The Last Kingdom',
   author: 'Bernard Cornwell',
@@ -36,4 +37,24 @@ for (const key in book) {
     console.log(book[key]);
   }
   // Якщо це не власна властивість - нічого не робимо
+}
+*/
+
+const keys = [];
+const values = [];
+const advert = {
+  service: 'apt',
+};
+const apartment = Object.create(advert);
+apartment.descr = 'Spacious apartment in the city center';
+apartment.rating = 4;
+apartment.price = 2153;
+
+for (const key in apartment) {
+  // Change code below this line
+
+  keys.push(key);
+  values.push(apartment[key]);
+
+  // Change code above this line
 }
