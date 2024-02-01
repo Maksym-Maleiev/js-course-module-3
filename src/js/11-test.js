@@ -56,5 +56,13 @@ for (const key in apartment) {
   keys.push(key);
   values.push(apartment[key]);
 
+  if (apartment.hasOwnProperty(key)) {
+    console.log(key);
+    console.log(apartment[key]);
+  }
+
   // Change code above this line
 }
+
+console.log(keys);
+console.log(values);
