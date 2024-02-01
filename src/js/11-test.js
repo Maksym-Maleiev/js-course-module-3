@@ -1,3 +1,4 @@
+/*
 const animal = { legs: 4 };
 const dog = Object.create(animal);
 dog.name = 'Mango';
@@ -20,3 +21,19 @@ console.log(dog.hasOwnProperty('name'));
 // true
 console.log(dog.hasOwnProperty('legs'));
 // false
+*/
+
+const book = {
+  title: 'The Last Kingdom',
+  author: 'Bernard Cornwell',
+  genres: ['historical prose', 'adventure'],
+  rating: 8.38,
+};
+for (const key in book) {
+  // Якщо це власна властивість - виконуємо тіло if
+  if (book.hasOwnProperty(key)) {
+    console.log(key);
+    console.log(book[key]);
+  }
+  // Якщо це не власна властивість - нічого не робимо
+}
