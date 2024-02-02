@@ -11,6 +11,10 @@ function getAllPropValues(propName) {
 
   for (const product of products) {
     arr.push(product[propName]);
+
+    if (!product[propName]) {
+      return (arr = []);
+    }
   }
 
   return arr;
