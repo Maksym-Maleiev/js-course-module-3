@@ -7,15 +7,15 @@ const products = [
 
 function calculateTotalPrice(productName) {
   // Пиши код нижче за цей рядок
-  let totalPrice = 0;
+  let total = 0;
 
   for (const product of products) {
-    console.log(product);
-
-    totalPrice = product.price * product.quantity;
+    if (productName === product.name) {
+      total = product.price * product.quantity;
+    }
   }
 
-  return totalPrice;
+  return total;
   // Пиши код вище за цей рядок
 }
 
