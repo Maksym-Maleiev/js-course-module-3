@@ -7,5 +7,17 @@ const products = [
 
 function getAllPropValues(propName) {
   // Change code below this line
+  let arr = [];
+
+  for (const product of products) {
+    arr.push([product]);
+  }
+
+  return arr;
   // Change code above this line
 }
+
+console.log(getAllPropValues('name'));
+console.log(getAllPropValues('quantity'));
+console.log(getAllPropValues('price'));
+console.log(getAllPropValues('category'));
