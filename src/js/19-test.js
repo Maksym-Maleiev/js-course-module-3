@@ -10,7 +10,7 @@ function getAllPropValues(propName) {
   let arr = [];
 
   for (const product of products) {
-    arr.push([product]);
+    arr.push(product[propName]);
   }
 
   return arr;
