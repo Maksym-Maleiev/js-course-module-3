@@ -23,7 +23,14 @@ const highTemperatures = {
 };
 // Change code below this line
 
-const {} = highTemperatures;
+const {
+  yesterday,
+  today,
+  tomorrow,
+  icon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
+} = highTemperatures;
 
 // Change code above this line
 const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+console.log(meanTemperature);
