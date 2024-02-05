@@ -1,3 +1,4 @@
+/*
 const book = {
   title: 'The Last Kingdom',
   автор: 'Bernard Cornwell',
@@ -9,3 +10,4 @@ const accessType = book.public ? 'публічному' : 'закритому';
 const message = `Книга ${book.title} автора ${book.author} з рейтингом ${book.rating} знаходиться у ${accessType} доступі.`;
 
 console.log(message);
+*/
