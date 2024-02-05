@@ -23,10 +23,7 @@ const highTemperatures = {
 };
 // Change code below this line
 
-const yesterday = highTemperatures.yesterday;
-const today = highTemperatures.today;
-const tomorrow = highTemperatures.tomorrow;
-const icon = highTemperatures.icon;
+const {} = highTemperatures;
 
 // Change code above this line
 const meanTemperature = (yesterday + today + tomorrow) / 3;
