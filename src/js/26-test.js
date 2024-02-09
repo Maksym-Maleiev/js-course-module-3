@@ -57,12 +57,9 @@ function doStuffWithBook({
 */
 
 // Change code below this line
-function calculateMeanTemperature({
-  todayLow,
-  todayHigh,
-  tomorrowLow,
-  tomorrowHigh,
-}) {
+function calculateMeanTemperature({ today, tomorrow }) {
+  const { todayLow, todayHigh } = today;
+  const { tomorrowLow, tomorrowHigh } = tomorrow;
   // Change code above this line
   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
 }
