@@ -1,3 +1,4 @@
+/*
 const temps = [14, -4, 25, 8, 11];
 // У консолі буде масив
 console.log(temps);
@@ -10,3 +11,4 @@ console.log(...temps);
 // ✅ Розпорошимо колекцію елементів як окремі аргументи
 console.log(Math.max(...temps));
 // 25
+*/
