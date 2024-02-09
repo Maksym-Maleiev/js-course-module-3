@@ -46,13 +46,15 @@ const forecast = {
 
 const {
   today: {
-    low,
-    high,
+    low: lowToday,
+    high: highToday,
     icon: todayIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
   },
   tomorrow: {
-    low,
-    high,
+    low: lowTomorrow,
+    high: highTomorrow,
     icon: tomorrowIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
   },
 } = forecast;
+
+console.log(forecast);
