@@ -57,12 +57,9 @@ function doStuffWithBook({
 */
 
 // Change code below this line
-function calculateMeanTemperature(forecast) {
-  const todayLow = forecast.today.low;
-  const todayHigh = forecast.today.high;
-  const tomorrowLow = forecast.tomorrow.low;
-  const tomorrowHigh = forecast.tomorrow.high;
-
+function calculateMeanTemperature(today, tomorrow) {
+  const { todayLow, todayHigh } = today;
+  const { tomorrowLow, tomorrowHigh } = tomorrow;
   // Change code above this line
   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
 }
