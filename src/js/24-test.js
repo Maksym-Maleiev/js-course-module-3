@@ -35,7 +35,10 @@ const hexColors = [];
 const rgbColors = [];
 // Change code below this line
 
-for (const color of colors) {
-  hexColors.push(color.hex);
-  rgbColors.push(color.rgb);
+for (const { hex, rgb } of colors) {
+  hexColors.push(hex);
+  rgbColors.push(rgb);
 }
+
+console.log(hexColors);
+console.log(rgbColors);
