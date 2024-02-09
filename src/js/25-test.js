@@ -1,3 +1,4 @@
+/*
 const user = {
   name: 'Jacques Gluke',
   tag: 'jgluke',
@@ -20,3 +21,38 @@ console.log(userViews);
 // 4827
 console.log(userLikes);
 // 1308
+*/
+
+const forecast = {
+  today: {
+    low: 28,
+    high: 32,
+    icon: 'https://www.flaticon.com/svg/static/icons/svg/861/861059.svg',
+  },
+  tomorrow: {
+    low: 27,
+    high: 31,
+  },
+};
+// Change code below this line
+
+// const highToday = forecast.today.high;
+// const lowToday = forecast.today.low;
+// const todayIcon = forecast.today.icon;
+
+// const highTomorrow = forecast.tomorrow.high;
+// const lowTomorrow = forecast.tomorrow.low;
+// const tomorrowIcon = forecast.tomorrow.icon;
+
+const {
+  today: {
+    low,
+    high,
+    icon: todayIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
+  },
+  tomorrow: {
+    low,
+    high,
+    icon: tomorrowIcon = 'https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg',
+  },
+} = forecast;
