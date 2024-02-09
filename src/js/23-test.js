@@ -1,3 +1,4 @@
+/*
 const firstBook = {
   title: 'Останнє королівство',
   coverImage:
@@ -25,3 +26,19 @@ console.log(secondTitle);
 // Сон смішної людини
 console.log(secondCoverImage);
 // https://via.placeholder.com/640/480
+*/
+
+const highTemperatures = {
+  yesterday: 28,
+  today: 26,
+  tomorrow: 33,
+};
+// Change code below this line
+
+const highYesterday = highTemperatures.yesterday;
+const highToday = highTemperatures.today;
+const highTomorrow = highTemperatures.tomorrow;
+const highIcon = highTemperatures.icon;
+
+// Change code above this line
+const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
