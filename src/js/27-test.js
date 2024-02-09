@@ -12,3 +12,11 @@ console.log(...temps);
 console.log(Math.max(...temps));
 // 25
 */
+
+const scores = [89, 64, 42, 17, 93, 51, 26];
+// Change code below this line
+const bestScore = Math.max(...scores);
+const worstScore = Math.min(...scores);
+
+console.log(bestScore);
+console.log(worstScore);
