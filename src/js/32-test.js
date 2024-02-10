@@ -1,3 +1,4 @@
+/*
 function multiply(firstNumber, secondNumber, ...otherArgs) {
   console.log(firstNumber);
   // Значення першого аргументу
@@ -10,3 +11,4 @@ function multiply(firstNumber, secondNumber, ...otherArgs) {
 multiply(1, 2);
 multiply(1, 2, 3);
 multiply(1, 2, 3, 4);
+*/
