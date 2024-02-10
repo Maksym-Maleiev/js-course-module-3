@@ -10,6 +10,7 @@ multiply(1, 2, 3);
 multiply(1, 2, 3, 4);
 */
 
+/*
 function multiply(...args) {
   console.log(args);
   // масив всіх аргументів
@@ -18,3 +19,9 @@ function multiply(...args) {
 multiply(1, 2);
 multiply(1, 2, 3);
 multiply(1, 2, 3, 4);
+*/
+
+// Change code below this line
+function add() {
+  // Change code above this line
+}
