@@ -17,6 +17,7 @@ console.log(fourth);
 // { propA: 5, propB: 10, propC: 50, propD: 20 }
 */
 
+/*
 const first = { propA: 5, propB: 10, propC: 50 };
 const second = { propC: 15 };
 const third = { propB: 20, ...first, ...second };
@@ -28,3 +29,19 @@ console.log(fourth);
 const fifth = { ...first, propB: 20, ...second };
 console.log(fifth);
 // { propA: 5, propB: 20, propC: 15 }
+*/
+
+const defaultSettings = {
+  theme: 'light',
+  public: true,
+  withPassword: false,
+  minNumberOfQuestions: 10,
+  timePerQuestion: 60,
+};
+const overrideSettings = {
+  public: false,
+  withPassword: true,
+  timePerQuestion: 30,
+};
+// Change code below this line
+const finalSettings = {};
