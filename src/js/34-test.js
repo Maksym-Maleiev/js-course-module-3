@@ -1,3 +1,4 @@
+/*
 // ✅ Логієски та синтаксично згруповані сутності
 const bookShelf = {
   books: ['Остання королівство', 'Вартовий снів'],
@@ -10,6 +11,15 @@ const bookShelf = {
     console.log('Цей метод буде додавати нову книгу у властивість books');
   },
 };
+
 // Виклики методів
 bookShelf.getBooks();
 bookShelf.addBook('Нова книга');
+*/
+
+/*
+// ❌ Слабозв'язані, незалежні сутності
+const books = [];
+function getBooks() {}
+function addBook() {}
+*/
