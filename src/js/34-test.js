@@ -33,6 +33,12 @@ const bookShelf = {
   addBook(bookName) {
     return `Adding book ${bookName}`;
   },
+  removeBook(bookName) {
+    return `Deleting book ${bookName}`;
+  },
+  updateBook(oldName, newName) {
+    return `Updating book ${oldName} to ${newName}`;
+  },
   // Change code above this line
 };
 
