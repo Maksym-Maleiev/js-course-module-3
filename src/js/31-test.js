@@ -22,6 +22,7 @@ multiply(1, 2, 3, 4);
 */
 
 // Change code below this line
-function add() {
+function add(...args) {
+  let sum = ;
   // Change code above this line
 }
