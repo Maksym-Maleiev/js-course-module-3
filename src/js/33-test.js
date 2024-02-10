@@ -5,7 +5,7 @@ function findMatches(arr, ...arges) {
   for (const arg of arges) {
     for (const element of arr) {
       if (element === arg) {
-        matches.push(element);
+        matches.push(arg);
       }
     }
   }
