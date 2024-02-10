@@ -37,11 +37,11 @@ const atTheOldToad = {
       const potion = potions[i];
 
       if (oldName === potion.name) {
-        potions.splice(i, 1, newName);
+        this.potions.splice(i, 1, newName);
       }
-
-      return `Potion ${oldName} is not in inventory!`;
     }
+
+    return `Potion ${oldName} is not in inventory!`;
   },
   // Change code above this line
 };
