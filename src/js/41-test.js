@@ -37,7 +37,7 @@ const atTheOldToad = {
       const potion = potions[i];
 
       if (oldName === potion.name) {
-        this.potions.splice(i, 1, newName);
+        potion.name = newName;
       }
     }
 
