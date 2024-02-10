@@ -9,3 +9,8 @@ const atTheOldToad = {
     // Change code above this line
   },
 };
+
+atTheOldToad.updatePotionName('Dragon breath', 'Polymorth');
+atTheOldToad.updatePotionName('Stone skin', 'Invisibility');
+
+console.log(atTheOldToad);
