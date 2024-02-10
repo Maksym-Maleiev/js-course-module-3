@@ -14,11 +14,11 @@ multiply(1, 2, 3, 4);
 */
 
 // Change code below this line
-function addOverNum(...args) {
+function addOverNum(firstArg, ...args) {
   let total = 0;
 
   for (const arg of args) {
-    total += arg;
+    if (arg > firstArg) total += arg;
   }
 
   return total;
