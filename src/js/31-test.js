@@ -26,8 +26,12 @@ function add(...args) {
   console.log(...args);
   let sum = 0;
 
+  for (const arg of args) {
+    sum += arg;
+  }
+
   return sum;
-  // Change code above this line
+  // Change code) above this line
 }
 
 console.log(add(15, 27));
